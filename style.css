@@ -1,0 +1,33 @@
+/* Existing styles ... */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.8rem;
+  background: #000;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Waveform Canvas */
+#waveform {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+header .logo,
+header .title {
+  position: relative;
+  z-index: 1;
+}
+
+/* Existing styles continue ... */
+
+/* MOBILE FRIENDLY ADJUSTMENTS ... */
+
+/* End of file */
